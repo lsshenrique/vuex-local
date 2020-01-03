@@ -1,0 +1,18 @@
+{
+    "name": "@qualitech/vuex-local",
+    "version": "1.0.0",
+    "description": "Pacote para auxiliar na criação de modulo de vuex dinamicos",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "vuex",
+        "vue"
+    ],
+    "author": "Henrique L. S. Silva",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "vuex": "^3.1.2"
+    }
+}
