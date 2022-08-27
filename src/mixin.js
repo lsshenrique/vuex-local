@@ -25,8 +25,10 @@ export default {
 
         const store = this.$store;
 
+        this._rootNamespace = name
         this.$get = prop => store.getters[`${name}/${prop}`];
         this.$state = store.state[`${name}`];
+        this.$getters = store.getters[`${name}`];
         this.$commit = (mutation, payload) => store.commit(`${name}/${mutation}`, payload);
         this.$dispatch = (action, payload) => store.dispatch(`${name}/${action}`, payload);
     },
